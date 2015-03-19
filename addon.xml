@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.OpenVTV"
+	version="0.1.0"
+	name="OpenVTV"
+	provider-name="Thái Quang Tùng">
+	<requires>
+		<import addon="xbmc.python" version="2.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="tv.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language>en</language>
+		<summary lang="en">Vietnam Television</summary>
+		<description lang="en">This plugin allows you to watch television channels provided by VTV Plus.</description>
+		<disclaimer lang="en">nothing</disclaimer>
+	</extension>
+</addon>
