@@ -1,5 +1,15 @@
 
-import os.path, re, sys, urllib, urllib2, cookielib, json, math, xbmcaddon, xbmcplugin, xbmcgui, random
+import os.path
+import re, sys
+import urllib
+import urllib2
+import cookielib
+#import json
+#import math
+import xbmcaddon
+import xbmcplugin
+import xbmcgui
+import random
 
 class OpenTV:
     def __init__(self, homedir='', username='', password=''):
